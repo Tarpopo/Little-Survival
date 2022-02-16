@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: zombieBoyParts
+  m_Shader: {fileID: 4800000, guid: fc6eb684548dbc04e89bf93f8ff5e5ba, type: 3}
+  m_ShaderKeywords: OUTLINES TCP2_OUTLINE_CONST_SIZE TCP2_RIMO
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 47f07955044d16b4ab26dbf52ee88d6f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 7fe85df733e76164b912c7ade9e31f71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DstBlendOutline: 10
+    - _Offset1: 0
+    - _Offset2: 0
+    - _Outline: 0.0009
+    - _RampSmooth: 1
+    - _RampThreshold: 1
+    - _RimMax: 1
+    - _RimMin: 0
+    - _Shininess: 0.01
+    - _SpecSmooth: 0.05
+    - _SrcBlendOutline: 5
+    - _TexLod: 5
+    - _ZSmooth: -0.5
+    m_Colors:
+    - _Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
+    - _HColor: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 1}
+    - _OutlineColor: {r: 0.05900677, g: 0.3207547, b: 0.10934292, a: 1}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 0.5529412}
+    - _RimDir: {r: -1.71, g: 0.83, b: 0.93, a: 0}
+    - _SColor: {r: 0.195, g: 0.195, b: 0.195, a: 1}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_BuildTextureStacks: []
